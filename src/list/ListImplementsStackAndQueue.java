@@ -1,5 +1,6 @@
 package list;
 
+//链表实现栈和队列
 public class ListImplementsStackAndQueue {
 
     public static   class Node<V>{
