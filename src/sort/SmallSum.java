@@ -5,7 +5,7 @@ import static sort.MergeSort.randomArr;
 
 /**
  * @Author pjieyi
- * @Description 最小和
+ * @Description 归并求最小和
  */
 public class SmallSum {
 
