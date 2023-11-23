@@ -1,4 +1,4 @@
-package sort;
+package merge;
 
 import static sort.MergeSort.copyArr;
 import static sort.MergeSort.randomArr;
@@ -25,7 +25,6 @@ public class SmallSum {
             return 0;
         }
         int mid=L+((R-L)>>1);
-
         return process(arr,L,mid)+process(arr,mid+1,R)+merge(arr,L,mid,R);
     }
 
